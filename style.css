@@ -10,7 +10,7 @@
   color: white;
 }
 #header-pic {
-    width: 95%;
+    width: 99%;
 }
 #header-text-container {
     position: absolute;
@@ -30,7 +30,7 @@
     left: 50%;
     transform: translate(-50%,-60%);
     height: 9rem;
-    width: 95%;
+    width: 99%;
     background-image: linear-gradient(
         180deg,
         transparent, 
