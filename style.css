@@ -1,40 +1,43 @@
-
+@font-face {
+    src: url(fonts/docktrin.ttf);
+    font-family: docktrin;
+}
+body {
+    background-image: url(.//images/wood-backgound.jpg);
+}
 #header {
     width: 100%;
     height: auto;
 }
 
-#header-image {
+#header-box {
   position: relative;
   text-align: center;
   color: white;
 }
 #header-pic {
     width: 99%;
+    opacity: 1;
+    box-shadow: 0px 0px 20px rgb(221, 139, 124);
 }
 #header-text-container {
     position: absolute;
+    height: 25%;
+    width: 35%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-55%, -50%);
     padding: 2.5%;
-    border: 5px solid rgb(183, 115, 103);
+    padding-bottom: 5px;
+    /* border: 2.5px solid white; */
+    box-shadow: 0px 0px 20px rgb(221, 139, 124);
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(221, 139, 124, 0.7); */
 }
 #header-text {
-}
-
-.banner--fadebottom {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,-60%);
-    height: 9rem;
-    width: 99%;
-    background-image: linear-gradient(
-        180deg,
-        transparent, 
-        rgba(32, 14, 1, 0.8), 
-        #111
-    );
+    font-family: docktrin;
+    font-size:5.2vw;
+    padding-bottom: 0px;
+    /* transform: translatey(-2px); */
 }
