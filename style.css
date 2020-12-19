@@ -10,6 +10,10 @@
     src: url(fonts/hello\ honey.otf);
     font-family: honey;
 }
+@font-face {
+    src: url(fonts/Bergamot\ Ornaments.ttf);
+    font-family: bergamot;
+}
 body {
     background-image: url(.//images/planks.jpg);
     background-repeat: repeat-y;
@@ -73,6 +77,12 @@ body {
     text-align: center;
     /* transform: translatey(-2px); */
 }
+.fancy {
+}
+.berg {
+    font-family: bergamot;
+    line-height: 0%;
+}
 #invite {
     display: flex;
     flex-wrap: wrap;
@@ -122,7 +132,7 @@ body {
 }
 #story-text p{
     color: royalblue;
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, .95);
     border-radius: 5px;
     font-size: 2vw;
     text-align: center;
