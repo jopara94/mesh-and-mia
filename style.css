@@ -19,6 +19,7 @@ body {
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
+/* Header */
 #header {
     width: 100%;
     height: auto;
@@ -77,12 +78,11 @@ body {
     text-align: center;
     /* transform: translatey(-2px); */
 }
-.fancy {
-}
 .berg {
     font-family: bergamot;
     line-height: 0%;
 }
+/* Invite Div */
 #invite {
     display: flex;
     flex-wrap: wrap;
@@ -109,8 +109,10 @@ body {
     font-family: honey;
     text-shadow: 0px 0px 20px rgba(65, 105, 225, 0.9);
 }
+/* Story */
 #story {
-    padding-bottom: 5vw;
+    padding-bottom: 0vw;
+    box-shadow: 0px 0px 20px rgba(221, 139, 124, 0.9);
 }
 #our-story {
     background-color: rgba(221, 139, 124, 0.6);
@@ -122,19 +124,85 @@ body {
     text-align: center;
     color:white
 }
-#story-pic {
-      width: 100%;
+.story-pic {
+      width: 70%;
       opacity: 1;
-      box-shadow: 0px 0px 20px rgb(221, 139, 124);
+      padding: 5%;
+      /* box-shadow: 0px 0px 20px rgb(221, 139, 124); */
 }
-#story-text {
+
+.story-head {
+  font-size: 3vw;
+  font-weight: 100;
+}
+
+#story-text-box {
+  margin-top: 15px;
+  font-weight: 100;
+  color: royalblue;
+  background-color: rgba(245, 245, 245, .95);
+  border-radius: 5px;
+  font-size: 2vw;
+  text-align: center;
+  padding: 4%;
+}
+
+
+/* Gallery */
+#gallery {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#our-gallery {
+    padding: 15px;
+}
+#gallery-box {
+    position: relative;
+    text-align: center;
+    color:whitesmoke
+}
+.gallery-head {
+    font-size: 4vw;
+    font-weight: 100;
+}
+
+#gallery-image-box {
     margin-top: 15px;
-}
-#story-text p{
     color: royalblue;
     background-color: rgba(245, 245, 245, .95);
+    box-shadow: 0px 0px 20px rgba(245, 245, 245, .95);
     border-radius: 5px;
     font-size: 2vw;
     text-align: center;
     padding: 4%;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    column-count: 5;
+    column-gap: 25px;
+    background: rgba(221, 139, 124, 0.9);
+    box-shadow: 0px 0px 20px rgba(221, 139, 124, 0.9);
+    border-radius: 10px;
+    z-index: -20;
+}
+.gallery-pic {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 8px;
+    margin-top: 10px;
+    background: rgba(65, 105, 225, 0.9);
+    box-sizing: border-box;
+    z-index: 99;
+}
+.gallery-pic:hover {
+    transform: scale(1.025);
+    transition-timing-function: ease;
+    transition: 0.3s;
+    z-index: 99;
+
 }
